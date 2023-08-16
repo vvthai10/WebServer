@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cloudgo-project",
+  "private_key_id": "7181f406b418e13452f5134018e35bd85d0acb95",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC8vRMiK4i7LYKQ\nfFVbihquJVbDiohjlfOUkV1BrYF4JVPRxBU9LlyYU/a8AWeT457POYrPPoE1GgsO\n/QCGo7tGDy66Q6PR9EprsQeHLsb3Mv4INogZLYmpywANdcmqF1VwH70Jwzf1nOWA\n6bxh6CazRkx72SssoDkAvbKHCQSLamxJZ92tLdaWQJ4vvedkn1Ea9rSAVMpuJJ3B\n9SiIzD1W881p1LcZ4bgOqUXPZkkj1hUFpJQ0BorXUftQaOpAoNvHv9nAExiijLWQ\ni9hVfq4Zfr1ttv/Rg4LRUi315PO0H43ul2Y4S+WLkOioTzkH/hA3EGJ6737qbEss\n3Zm4zvhVAgMBAAECggEAGEznx8B/LEphwySfANg5My7PiwGtKdVGtVw5+5jRUJzN\nu/ZZHbV4aox0+iPcKChobBnmi2Rq0mF2BwoAJVWzaQPPamAHGaMwackzRO56450H\nJBuRTlyUmu3uJc2Cl4nFkFglyLn/3HnE+uIdRSXUxcRJWLDPZEGE1VmXQNeiZCio\n9+nYA7loJ1z3CYHcEueIzAQkbpZsJ3XNUzSYF15/mY9HD6/IfrRviSu7KzbKpf9R\nKXFdaqychQEykZpTTaLS2xzfpSWkpbBxX7szMUWmt/8ExtWU6XqGQI3iofcLcBy1\n+BR0YlSHY5Tw89RWgH2UeC8IzEijvA0oDf1IkS+zgQKBgQDnIc7l0bkZzSGHM58a\nlnntVMMt793P2ZVn9ZiYMlufsd8j3cZayQHjQ3qZsE25SyxrvPPUePTxrnJq/M6w\nCPCi6I5Q7g9meEFY4kBCjqEZFy3bM/7HWYkry46cbEtErny1f/bgzOf3Vu7U5wCq\n8cy3tMiDXC/izC0/JLwVEykdUQKBgQDRC5my0aTMS7ocEUUKMCcZCF9STGs+2LO2\n4+g0ePKefhlQzoiPc9t0goMvtAAsbplNwjZV6EXdzEmUu1WiSAHCII1BpQNWj9YK\nF8vzkgzZtQUx5mXjbUFH0gBkdVf81i52eVqqtmvTvyaU2rEV+uKeDY0yVIaxhDgB\nUVQbS8aZxQKBgQCqEtaLhacOtULWmcWZauCNIrH8O2ScbR7jQHToiSWifOAVJDuw\n0ffxotW0AWcv0YD+RiulTNvwesz2rM/p+KoZNcaDBqmOXS64mMNwNkOUktnLUpdH\nWTr2XvKxZ357K2nYpDCleiG2fuF/B/wVzZc2FnD1OACEgnlI3V8IovC+AQKBgQC7\n6qKq1bxADh7qFjgq1WiAHz+Y+qs5npHG6Y8WhFcNVKurMU4fLnXrgVsuaa/yQSW8\necZgaWFM5dSLR+/N5s711E9G4HBkwv4UqpmjhfnZRtm5prSWweL6DfReWgHTfjHc\nPHDdnwjFG0MycnjYGmTW0bXItaUzNHkn7hUeSHrqRQKBgQCAE5l2O412AUTLiqHa\nPAoTXuaA05+gItfWLhOltoq7gCGozey1RWsJVaORVaesZ7IAjwHBlvj4HAPWn9au\nExVTWEakuvZheHuWxEwCR1o5ley1RfBOVHAo/9y7Q+IEqoc2SEP1c/iAI7blGQqw\n7vx7671KGLVS48pU/zO8cKFsYA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloudgoService@cloudgo-project.iam.gserviceaccount.com",
+  "client_id": "114116236499456124013",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloudgoService%40cloudgo-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
