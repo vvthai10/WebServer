@@ -1,0 +1,149 @@
+﻿command,sentence
+call,tạo cuộc gọi
+call,thêm cuộc gọi
+call,khởi tạo cuộc gọi
+call,thiết lập cuộc gọi
+call,mở cuộc gọi mới với khách hàng Nguyễn Văn An
+call,thiết lập cuộc gọi với khách hàng Lâm Nguyễn
+call,mở chức năng cuộc gọi
+call,bắt đầu tạo cuộc gọi với khách hàng
+call,thêm mới cuộc gọi
+call,tạo mới cuộc gọi
+call,tạo cuộc gọi vào lúc 10 giờ
+call,thêm mới cuộc gọi vào lúc 9 giờ
+call,khởi tạo cuộc gọi mới với khách hàng vào lúc 14 giờ
+call,khởi tạo cuộc gọi mới
+call,yêu cầu tạo cuộc gọi mới vào lúc 9 giờ
+call,bắt đầu tạo cuộc gọi mới
+call,thiết lập mới cuộc gọi
+call,cho mình tạo cuộc gọi mới
+call,tạo cho mình cuộc gọi mới với khách hàng A vào lúc 7 giờ
+meeting,tạo cuộc họp
+meeting,thêm cuộc họp
+meeting,khởi tạo cuộc họp
+meeting,thiết lập cuộc họp
+meeting,thiết lập buổi họp mới
+meeting,tạo mới buổi họp với khách hàng A
+meeting,mở chức năng tạo cuộc họp
+meeting,khởi tạo buổi họp mới với khách hàng vào lúc 9 giờ
+meeting,thêm mới cuộc họp với khách hàng
+meeting,tạo mới cuộc họp vào lúc 16 giờ
+meeting,tạo buổi họp vào lúc 10 giờ
+meeting,thêm mới cuộc họp vào lúc 9 giờ
+meeting,khởi tạo cuộc họp mới với khách hàng vào lúc 14 giờ
+meeting,khởi tạo cuộc họp mới
+meeting,yêu cầu tạo cuộc họp mới vào lúc 9 giờ
+meeting,bắt đầu tạo cuộc họp mới
+meeting,thiết lập mới cuộc họp
+meeting,cho mình tạo cuộc họp mới
+meeting,tạo cho mình cuộc họp mới với khách hàng A vào lúc 7 giờ
+meeting,cho mình tạo buổi họp mới
+meeting,tạo cho mình buổi họp mới với khách hàng A vào lúc 7 giờ
+report,Mở tài liệu báo cáo
+report,Mở report hiện tại
+report,Mở báo cáo mới
+report,Hiển thị report
+report,Mở file báo cáo
+report,Mở tệp report đã lưu
+report,Mở trang report
+report,Mở báo cáo doanh số bán hàng
+report,Mở report tổng quan về bán hàng
+report,Hiển thị báo cáo chi tiết doanh thu
+report,Mở báo cáo bán hàng
+report,Hiển thị báo cáo đánh giá bán hàng
+report,Mở report bán hàng
+report,Mở báo cáo chi tiết bán hàng
+report,Hiển thị báo cáo doanh số bán hàng
+report,Mở báo cáo tổng công nợ
+report,Mở report chi tiết công nợ
+report,Hiển thị báo cáo công nợ
+report,Mở báo cáo tổng quan dịch vụ CSKH
+report,Mở report CSKH
+report,Mở báo cáo CSKH
+report,Mở report chi tiết CSKH
+report,Hiển thị báo cáo CSKH
+report,Hiển thị báo cáo cuộc gọi
+report,Mở report tổng hợp cuộc gọi
+report,Mở báo cáo cuộc gọi
+report,Mở report danh sách cuộc gọi
+report,Hiển thị báo cáo thống kê cuộc gọi
+report,Hiển thị báo cáo tổng hợp cuộc gọi
+report,Mở report danh sách cuộc gọi
+calendar,Mở lịch biểu cá nhân
+calendar,Mở lịch biểu hàng ngày
+calendar,Hiển thị lịch biểu tuần này
+calendar,Mở lịch biểu công việc
+calendar,Mở lịch biểu sự kiện
+calendar,Hiển thị lịch biểu hằng ngày
+calendar,Mở lịch biểu theo tháng
+calendar,Mở lịch biểu hàng tuần
+calendar,Hiển thị lịch biểu công tác
+calendar,Mở lịch biểu cá nhân hàng ngày
+calendar,Mở lịch biểu tuần tới
+calendar,Hiển thị lịch biểu công việc hàng ngày
+calendar,Mở lịch biểu hẹn gặp khách hàng
+calendar,Mở lịch biểu cuộc họp
+calendar,Hiển thị lịch biểu sự kiện trong tuần
+calendar,Mở lịch biểu cá nhân hàng tuần
+calendar,Mở lịch biểu theo quý
+calendar,Hiển thị lịch biểu công tác hàng ngày
+calendar,Mở lịch biểu công việc quan trọng
+calendar,Mở lịch biểu cá nhân theo tháng
+other,Lấy danh sách sản phẩm
+other,Hiển thị danh sách các sản phẩm
+other,Xem danh sách đầy đủ sản phẩm
+other,Ra lệnh xem toàn bộ sản phẩm
+other,Mở danh sách sản phẩm
+other,Xem danh sách sản phẩm có sẵn
+other,Lấy thông tin về các sản phẩm
+other,Xem danh sách sản phẩm mới nhất
+other,Hiển thị danh sách sản phẩm hàng hóa
+other,Xem danh sách dịch vụ
+other,Hiển thị danh sách các dịch vụ
+other,Lấy thông tin về các dịch vụ
+other,Ra lệnh xem toàn bộ dịch vụ
+other,Mở danh sách dịch vụ có sẵn
+other,Xem danh sách nhà cung cấp
+other,Hiển thị danh sách các nhà cung cấp
+other,Lấy thông tin về các nhà cung cấp
+other,Xem toàn bộ danh sách nhà cung cấp
+other,Mở danh sách nhà cung cấp có sẵn
+other,Xem danh sách nhà cung cấp đang hợp tác
+other,Xem thông tin chi tiết về các nhà cung cấp
+other,Hiển thị danh sách nhà cung cấp mới nhất
+ticket,Mở ticket
+ticket,Mở trang ticket
+ticket,Truy cập ticket
+ticket,Truy cập trang ticket
+ticket,Hỗ trợ
+ticket,Yêu cầu hỗ trợ
+ticket,Phản hồi
+ticket,Feedback
+ticket,Phản hồi từ khách hàng
+ticket,Đánh giá của khách hàng
+mail,Mở hộp mail
+mail,Mở hộp thư
+mail,Mở email
+mail,Mở mail
+mail,Mở thư
+mail,Xem email
+mail,Xem mail
+mail,Xem thư
+mail,Truy cập mail
+mail,Truy cập email
+mail,Truy cập thư
+logout,Đăng xuất
+logout,Đăng xuất khỏi hệ thống
+logout,Thoát
+logout,Thoát hệ thống
+logout,Log out
+logout,Quit
+logout,Logout
+logout,Exit
+logout,Rời hệ thống
+user,Thông tin cá nhân
+user,Thay đổi thông tin cá nhân
+user,Tùy chỉnh thông tin cá nhân
+user,Chỉnh sửa thông tin cá nhân
+user,edit thông tin cá nhân
+user,edit personal info

@@ -1,0 +1,10 @@
+requests
+Flask
+Flask-Cors
+APScheduler
+pandas
+gensim
+scikit-learn
+google
+google-cloud
+google-cloud-speech
