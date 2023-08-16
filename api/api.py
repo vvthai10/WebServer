@@ -4,6 +4,7 @@ requests.packages.urllib3.disable_warnings()
 
 import models
 import models.voice_command as voicecm
+from api.ggcloud import transcribe_chirpRecognizer_LongAudio
 
 api = Blueprint('api', __name__)
 
@@ -22,8 +23,17 @@ def transcribe():
     # return render_template('transcribed.html', transcript=transcript)
 
 @api.route("/testapi", methods=["GET"])
-def transcribeVoiceToText():
+def testAPI():
     response_data = {"status": "success", "message": "This is demo api"}
+    return jsonify(response_data), 200
+
+@api.route("/testtranscript", methods=["GET"])
+def transcribeVoiceToText():
+    project_id = "cloudgo-project"
+    gcs_uri = "https://storage.googleapis.com/cloudgo_bucket/audio-files/Record3.wav"
+    gcs_uri = gcs_uri.replace("https://storage.googleapis.com/", "gs://")
+    transcript = transcribe_chirpRecognizer_LongAudio(project_id, gcs_uri)
+    response_data = {"status": "success", "message": transcript}
     return jsonify(response_data), 200
 
 @api.route("/train_voice_command", methods=["GET"])
