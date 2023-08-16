@@ -14,7 +14,7 @@ conn = None
 cur = None
 PROJECT_ID = "cloudgo-project"
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
-ROOT_URL = "http://localhost/crm/"
+ROOT_URL = "http://localhost/source/"
 ACCESS_TOKEN = ""
 
 def update_label(pbx_manager_id, srcipt, label):
@@ -39,7 +39,7 @@ def get_access_token():
     return data['access_token']
 def get_json_data_with_access_token():
     global ACCESS_TOKEN
-    url = ROOT_URL + "api/OpenAPI/list?module=PBXManager&sort_column=modifiedtime&sort_order=DESC&offset=0&max_rows=50"
+    url = ROOT_URL + "api/OpenAPI/list?module=PBXManager"
     ACCESS_TOKEN = get_access_token()
     headers = {
         "Access-Token": ACCESS_TOKEN
@@ -83,7 +83,7 @@ def createApp():
     app.config['SECRET_KEY']="070602"
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(call_api_and_process_data, 'interval', seconds=8000)
+    scheduler.add_job(call_api_and_process_data, 'interval', seconds=30)
     scheduler.start()
 
     app.register_blueprint(api, url_prefix='/')
