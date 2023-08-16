@@ -36,6 +36,15 @@ def transcribeVoiceToText():
     response_data = {"status": "success", "message": transcript}
     return jsonify(response_data), 200
 
+@api.route("/test_get_token", methods=["GET"])
+def transcribeVoiceToText():
+    ROOT_URL = "http://localhost/source/"
+    url = ROOT_URL + 'api/OpenAPI/auth?username=admin&access_key_md5=37488f318b75565be18d3b5accb8d439'
+    response = requests.get(url)
+    data = response.json()
+    response_data = {"status": "success", "message": data['access_token']}
+    return jsonify(response_data), 200
+
 @api.route("/train_voice_command", methods=["GET"])
 def trainModelVoiceCommand():
     voicecm.train()
