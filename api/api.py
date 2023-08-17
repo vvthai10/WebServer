@@ -8,6 +8,8 @@ from api.ggcloud import transcribe_chirpRecognizer_LongAudio
 
 api = Blueprint('api', __name__)
 
+TEST_ENV = "test variable"
+
 @api.route('/transcribe', methods=['POST'])
 def transcribe():
     data = request.json
@@ -24,7 +26,8 @@ def transcribe():
 
 @api.route("/test_api", methods=["GET"])
 def testAPI():
-    response_data = {"status": "success", "message": "This is demo api"}
+    global TEST_ENV
+    response_data = {"status": "success", "message": "This is demo api", "test": TEST_ENV}
     return jsonify(response_data), 200
 
 @api.route("/test_transcript", methods=["GET"])
