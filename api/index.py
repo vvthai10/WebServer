@@ -107,7 +107,7 @@ def createApp():
     app.config['SECRET_KEY']="070602"
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(call_api_and_process_data, 'interval', seconds=900)
+    scheduler.add_job(call_api_and_process_data, 'interval', seconds=int(os.getenv("TIME")))
     scheduler.start()
 
     app.register_blueprint(api, url_prefix='/')
