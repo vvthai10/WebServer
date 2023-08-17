@@ -38,7 +38,11 @@ def transcribeVoiceToText():
 
 @api.route("/test_get_token", methods=["GET"])
 def testGetToken():
-    url = "http://localhost:80/source/api/OpenAPI/auth?username=admin&access_key_md5=37488f318b75565be18d3b5accb8d439"
+    data = request.json
+    print("CHECK RIGHT HERE")
+    print(data)
+    url = data['url']
+    print(url)
     response = requests.get(url)
     data = response.json()
     response_data = {"status": "success", "message": data['access_token']}
