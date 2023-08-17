@@ -25,7 +25,7 @@ def transcribe():
 
 @api.route("/test_api", methods=["GET"])
 def testAPI():
-    response_data = {"status": "success", "message": "This is demo api", "test": os.getenv("TEST_ENV")}
+    response_data = {"status": "success", "message": "This is demo api"}
     return jsonify(response_data), 200
 
 @api.route("/test_transcript", methods=["GET"])
@@ -39,8 +39,7 @@ def transcribeVoiceToText():
 
 @api.route("/test_get_token", methods=["GET"])
 def testGetToken():
-    data = request.json
-    url = data['url']
+    url = os.getenv("ROOT_URL") + f'api/OpenAPI/auth?username={os.getenv("USER_NAME")}&access_key_md5={os.getenv("ACCESS_KEY")}'
     response = requests.get(url)
     data = response.json()
     response_data = {"status": "success", "message": data['data']['access_token']}

@@ -11,17 +11,17 @@ from api.api import api
 from models import get_label
 from api.ggcloud import transcribe_chirpRecognizer_LongAudio
 
-conn = None
-cur = None
-PROJECT_ID = "cloudgo-project"
+load_dotenv()
+
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
-ROOT_URL = "https://dev.cloudpro.vn/"
-USER_NAME = "vy.ngo"
-ACCESS_KEY = "db3cda88f740f6b8191c64886ae16ff3"
+PROJECT_ID = os.getenv("PROJECT_ID")
+ROOT_URL = os.getenv("ROOT_URL")
+USER_NAME = os.getenv("USER_NAME")
+ACCESS_KEY = os.getenv("ACCESS_KEY")
 ACCESS_TOKEN = ""
 IS_RUN = False
 
-load_dotenv()
+
 
 def update_label(pbx_manager_id, srcipt, label):
     global ACCESS_TOKEN
