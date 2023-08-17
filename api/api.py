@@ -22,12 +22,12 @@ def transcribe():
     # transcript = transcribe_chirpRecognizer_LongAudio()
     # return render_template('transcribed.html', transcript=transcript)
 
-@api.route("/testapi", methods=["GET"])
+@api.route("/test_api", methods=["GET"])
 def testAPI():
     response_data = {"status": "success", "message": "This is demo api"}
     return jsonify(response_data), 200
 
-@api.route("/testtranscript", methods=["GET"])
+@api.route("/test_transcript", methods=["GET"])
 def transcribeVoiceToText():
     project_id = "cloudgo-project"
     gcs_uri = "https://storage.googleapis.com/cloudgo_bucket/audio-files/Record3.wav"
@@ -39,18 +39,10 @@ def transcribeVoiceToText():
 @api.route("/test_get_token", methods=["GET"])
 def testGetToken():
     data = request.json
-    print("CHECK RIGHT HERE")
-    print(data)
     url = data['url']
-    print(url)
     response = requests.get(url)
     data = response.json()
-    try:
-        response = requests.get(url)
-        data = response.json()
-        response_data = {"status": "success", "message": data['access_token']}
-    except:
-        response_data = {"status": "Error", "message": "Some error"}
+    response_data = {"status": "success", "message": data['data']['access_token']}
     return jsonify(response_data), 200
 
 @api.route("/train_voice_command", methods=["GET"])
