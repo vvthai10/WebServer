@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import json
 import requests
 from flask import Flask, request, render_template, flash
@@ -19,6 +20,8 @@ USER_NAME = "vy.ngo"
 ACCESS_KEY = "db3cda88f740f6b8191c64886ae16ff3"
 ACCESS_TOKEN = ""
 IS_RUN = False
+
+load_dotenv()
 
 def update_label(pbx_manager_id, srcipt, label):
     global ACCESS_TOKEN
