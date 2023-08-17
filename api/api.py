@@ -1,3 +1,4 @@
+import os
 from flask import Blueprint, request, jsonify
 import requests
 requests.packages.urllib3.disable_warnings()
@@ -8,7 +9,7 @@ from api.ggcloud import transcribe_chirpRecognizer_LongAudio
 
 api = Blueprint('api', __name__)
 
-TEST_ENV = "test variable"
+os.environ["MY_VARIABLE"] = "my_value"
 
 @api.route('/transcribe', methods=['POST'])
 def transcribe():
@@ -26,8 +27,7 @@ def transcribe():
 
 @api.route("/test_api", methods=["GET"])
 def testAPI():
-    global TEST_ENV
-    response_data = {"status": "success", "message": "This is demo api", "test": TEST_ENV}
+    response_data = {"status": "success", "message": "This is demo api", "test": os.environ["MY_VARIABLE"]}
     return jsonify(response_data), 200
 
 @api.route("/test_transcript", methods=["GET"])
