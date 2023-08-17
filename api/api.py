@@ -45,7 +45,12 @@ def testGetToken():
     print(url)
     response = requests.get(url)
     data = response.json()
-    response_data = {"status": "success", "message": data['access_token']}
+    try:
+        response = requests.get(url)
+        data = response.json()
+        response_data = {"status": "success", "message": data['access_token']}
+    except:
+        response_data = {"status": "Error", "message": "Some error"}
     return jsonify(response_data), 200
 
 @api.route("/train_voice_command", methods=["GET"])
